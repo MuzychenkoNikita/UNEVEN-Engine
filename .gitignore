@@ -1,41 +1,51 @@
-# Prerequisites
-*.d
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Xcode
+*.xcuserstate
+*.xcbkptlist
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.pbxuser
 
-# Precompiled Headers
-*.gch
-*.pch
+# User-specific Xcode data
+xcuserdata/
+*.xcuserdatad/
 
-# Linker files
-*.ilk
+# Build products
+build/
+DerivedData/
+DerivedData/**
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.dSYM.tar.gz
 
-# Debugger Files
-*.pdb
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# CocoaPods
+Pods/
+*.xcworkspace
 
-# Fortran module files
-*.mod
-*.smod
+# Carthage
+Carthage/Build/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
 
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Instruments / logs / crash reports
+*.trace
+*.crash
+*.log

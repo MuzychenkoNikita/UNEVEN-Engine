@@ -1,3 +1,3 @@
 # UNEVEN-Engine
 
-<img src="logo-big.png" width="250" />
+<img src="logo-big.png" width="1000" />

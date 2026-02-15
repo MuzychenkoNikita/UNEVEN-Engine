@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CE36E7FD8FF359378EF527 /* Undo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F2DEC2FC79ED0610C3DA26F /* Undo.cpp */; };
+		1817955824A247CA9F871398 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5C1300C9792D32A5828940 /* CoreFoundation.framework */; };
+		4AA4DB8BE31CC8FD0F03B9CB /* libEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47201633E1440B659169EC73 /* libEngine.a */; };
+		58C304041F50FB768D532244 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3997FDECCF0EBD1E3DAB142C /* Interface.cpp */; };
+		713678D803C442CA6C9CE718 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BACC980CF188B320DBC2FC0 /* IOKit.framework */; };
+		840EA602F136B474F2C9A442 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19352E0A6698243CDCB7244A /* OpenGL.framework */; };
+		9223EFD8340D8BCA2B349E18 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606C44802E8F9832B59DEAC0 /* CoreVideo.framework */; };
+		9EF1308A40DACC7C3801DECA /* Scrpipting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C66332F6E9B6E47DF80972 /* Scrpipting.cpp */; };
+		F0197CD04B5AD0421EB51B10 /* Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C818F82FDAB42A1FF6AF38 /* Editor.cpp */; };
+		F8E8DBA28B76A594F44F49E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05721AD84DE2FF0A9281D118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DEB99C6508964E98F97FDC /* ../Engine/Engine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 128D75A5B57B9C5744A17BE5;
+			remoteInfo = libEngine.a;
+		};
+		57AC8D71A01D71A3E4BC43B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DEB99C6508964E98F97FDC /* ../Engine/Engine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FAACEBAA85C55D5986EB2B;
+			remoteInfo = libEngine.a;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BACC980CF188B320DBC2FC0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		18C818F82FDAB42A1FF6AF38 /* Editor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Editor.cpp; path = Editor.cpp; sourceTree = "<group>"; };
+		19352E0A6698243CDCB7244A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		28C66332F6E9B6E47DF80972 /* Scrpipting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Scrpipting.cpp; path = Scripting/Scrpipting.cpp; sourceTree = "<group>"; };
+		332611D03FE2C142B4CD3010 /* Editor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Editor; path = Editor; sourceTree = BUILT_PRODUCTS_DIR; };
+		3997FDECCF0EBD1E3DAB142C /* Interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Interface.cpp; path = Interface/Interface.cpp; sourceTree = "<group>"; };
+		52DEB99C6508964E98F97FDC /* libEngine.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Engine.xcodeproj"; path = ../Engine/Engine.xcodeproj; sourceTree = SOURCE_ROOT; };
+		606C44802E8F9832B59DEAC0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		616E9039A9DF746BEE7E4679 /* Undo.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Undo.hpp; path = Objects/Undo.hpp; sourceTree = "<group>"; };
+		71BA0CFC0730CC2E75CD233C /* Scripting.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Scripting.hpp; path = Scripting/Scripting.hpp; sourceTree = "<group>"; };
+		7F2DEC2FC79ED0610C3DA26F /* Undo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Undo.cpp; path = Objects/Undo.cpp; sourceTree = "<group>"; };
+		8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D36C825668E34188D77F9896 /* Interface.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Interface.hpp; path = Interface/Interface.hpp; sourceTree = "<group>"; };
+		EA5C1300C9792D32A5828940 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3F79F401CB265B2AC499D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EA602F136B474F2C9A442 /* OpenGL.framework in Frameworks */,
+				F8E8DBA28B76A594F44F49E2 /* Cocoa.framework in Frameworks */,
+				713678D803C442CA6C9CE718 /* IOKit.framework in Frameworks */,
+				9223EFD8340D8BCA2B349E18 /* CoreVideo.framework in Frameworks */,
+				1817955824A247CA9F871398 /* CoreFoundation.framework in Frameworks */,
+				4AA4DB8BE31CC8FD0F03B9CB /* libEngine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9627BFACE8ADEA9EBAF24DEC /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3DAD181729D30A5F0F9B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47201633E1440B659169EC73 /* libEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80EB0F1C253DACCE3775F55C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7F2DEC2FC79ED0610C3DA26F /* Undo.cpp */,
+				616E9039A9DF746BEE7E4679 /* Undo.hpp */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		88477EA765F28159399704E7 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				18C818F82FDAB42A1FF6AF38 /* Editor.cpp */,
+				D409B0CA76F7D77C061DB70A /* Interface */,
+				80EB0F1C253DACCE3775F55C /* Objects */,
+				B273B44E5561DB00E487BA8E /* Scripting */,
+				BBF76781A7E87333FA200DC1 /* Frameworks */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+				9D968EAA920D05DCE0E0A4EA /* Projects */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		9D968EAA920D05DCE0E0A4EA /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				52DEB99C6508964E98F97FDC /* Engine.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332611D03FE2C142B4CD3010 /* Editor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B273B44E5561DB00E487BA8E /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				71BA0CFC0730CC2E75CD233C /* Scripting.hpp */,
+				28C66332F6E9B6E47DF80972 /* Scrpipting.cpp */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		BBF76781A7E87333FA200DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19352E0A6698243CDCB7244A /* OpenGL.framework */,
+				8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */,
+				0BACC980CF188B320DBC2FC0 /* IOKit.framework */,
+				606C44802E8F9832B59DEAC0 /* CoreVideo.framework */,
+				EA5C1300C9792D32A5828940 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D409B0CA76F7D77C061DB70A /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3997FDECCF0EBD1E3DAB142C /* Interface.cpp */,
+				D36C825668E34188D77F9896 /* Interface.hpp */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878AEFB62AD678E845A745F6 /* Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D232E79F0AEDAE119A84E5DF /* Build configuration list for PBXNativeTarget "Editor" */;
+			buildPhases = (
+				53DF1FE08C99E6521C311E20 /* Resources */,
+				BD8C3937F646FFA985DE3777 /* Sources */,
+				E3F79F401CB265B2AC499D80 /* Frameworks */,
+				9627BFACE8ADEA9EBAF24DEC /* Embed Libraries */,
+				9607AE3710C85E8F00CD1376 /* Postbuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19F5EA2104E210134CC7D861 /* PBXTargetDependency */,
+			);
+			name = Editor;
+			productInstallPath = "$(HOME)/bin";
+			productName = Editor;
+			productReference = 332611D03FE2C142B4CD3010 /* Editor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 88477EA765F28159399704E7 /* Editor */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C3DAD181729D30A5F0F9B58 /* Products */;
+					ProjectRef = 52DEB99C6508964E98F97FDC /* Engine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				878AEFB62AD678E845A745F6 /* Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		47201633E1440B659169EC73 /* libEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEngine.a;
+			remoteRef = 05721AD84DE2FF0A9281D118 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53DF1FE08C99E6521C311E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9607AE3710C85E8F00CD1376 /* Postbuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Postbuild;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif [ \"${CONFIGURATION}\" = \"Debug\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Debug/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Debug/Editor/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Release/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Release/Editor/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Dist\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Dist/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Dist/Editor/libassimp.6.dylib\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD8C3937F646FFA985DE3777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0197CD04B5AD0421EB51B10 /* Editor.cpp in Sources */,
+				58C304041F50FB768D532244 /* Interface.cpp in Sources */,
+				03CE36E7FD8FF359378EF527 /* Undo.cpp in Sources */,
+				9EF1308A40DACC7C3801DECA /* Scrpipting.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19F5EA2104E210134CC7D861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libEngine.a;
+			targetProxy = 57AC8D71A01D71A3E4BC43B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		029062E5FBF66457EF91C125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../Binaries/macosx-ARM64/Debug/Editor";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Editor;
+			};
+			name = Debug;
+		};
+		0D4252D019FF02428EE97110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MACOS,
+					RELEASE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"../Dependencies/lib-arm64",
+				);
+				OBJROOT = "../Binaries/Intermediates/macosx-ARM64/Release/Editor";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-lassimp",
+				);
+				SYMROOT = "../Binaries/macosx-ARM64/Release/Editor";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					../Dependencies/include,
+					"$(inherited)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					../Engine,
+					.,
+				);
+			};
+			name = Release;
+		};
+		2EF7CB1F19E3F11161C9B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../Binaries/macosx-ARM64/Release/Editor";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Editor;
+			};
+			name = Release;
+		};
+		55975B16A81D86087A61E956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MACOS,
+					DEBUG,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"../Dependencies/lib-arm64",
+				);
+				OBJROOT = "../Binaries/Intermediates/macosx-ARM64/Debug/Editor";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-lassimp",
+				);
+				SYMROOT = "../Binaries/macosx-ARM64/Debug/Editor";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					../Dependencies/include,
+					"$(inherited)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					../Engine,
+					.,
+				);
+			};
+			name = Debug;
+		};
+		7367FB928A7A96C47A9691D2 /* Dist */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../Binaries/macosx-ARM64/Dist/Editor";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Editor;
+			};
+			name = Dist;
+		};
+		84BEC783D4D25C3557508DC3 /* Dist */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MACOS,
+					DIST,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"../Dependencies/lib-arm64",
+				);
+				OBJROOT = "../Binaries/Intermediates/macosx-ARM64/Dist/Editor";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-lassimp",
+				);
+				SYMROOT = "../Binaries/macosx-ARM64/Dist/Editor";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					../Dependencies/include,
+					"$(inherited)",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					../Engine,
+					.,
+				);
+			};
+			name = Dist;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55975B16A81D86087A61E956 /* Debug */,
+				0D4252D019FF02428EE97110 /* Release */,
+				84BEC783D4D25C3557508DC3 /* Dist */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D232E79F0AEDAE119A84E5DF /* Build configuration list for PBXNativeTarget "Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029062E5FBF66457EF91C125 /* Debug */,
+				2EF7CB1F19E3F11161C9B95F /* Release */,
+				7367FB928A7A96C47A9691D2 /* Dist */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -15,7 +15,7 @@ targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
 objdir ("../Binaries/Intermediates/" .. OutputDir .. "/%{prj.name}")
 
 postbuildcommands {
-    '{COPYDIR} "../Core/Graphics/Shaders" "%{cfg.targetdir}"',
+    '{COPYDIR} "../Engine/Renderer/Shaders" "%{cfg.targetdir}"',
     '{COPYFILE} "../Dependencies/lib-arm64/libassimp.6.dylib" "%{cfg.targetdir}/libassimp.6.dylib"'
 }
 

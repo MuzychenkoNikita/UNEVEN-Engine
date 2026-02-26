@@ -11,10 +11,10 @@
 		1817955824A247CA9F871398 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5C1300C9792D32A5828940 /* CoreFoundation.framework */; };
 		4AA4DB8BE31CC8FD0F03B9CB /* libEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47201633E1440B659169EC73 /* libEngine.a */; };
 		58C304041F50FB768D532244 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3997FDECCF0EBD1E3DAB142C /* Interface.cpp */; };
+		7126958CC7B3FFFEA02D13CC /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E684C9F4E9F59C266B624034 /* Main.cpp */; };
 		713678D803C442CA6C9CE718 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BACC980CF188B320DBC2FC0 /* IOKit.framework */; };
 		840EA602F136B474F2C9A442 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19352E0A6698243CDCB7244A /* OpenGL.framework */; };
 		9223EFD8340D8BCA2B349E18 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606C44802E8F9832B59DEAC0 /* CoreVideo.framework */; };
-		9EF1308A40DACC7C3801DECA /* Scrpipting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C66332F6E9B6E47DF80972 /* Scrpipting.cpp */; };
 		F0197CD04B5AD0421EB51B10 /* Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C818F82FDAB42A1FF6AF38 /* Editor.cpp */; };
 		F8E8DBA28B76A594F44F49E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -40,16 +40,17 @@
 		0BACC980CF188B320DBC2FC0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		18C818F82FDAB42A1FF6AF38 /* Editor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Editor.cpp; path = Editor.cpp; sourceTree = "<group>"; };
 		19352E0A6698243CDCB7244A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		28C66332F6E9B6E47DF80972 /* Scrpipting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Scrpipting.cpp; path = Scripting/Scrpipting.cpp; sourceTree = "<group>"; };
+		2EEC2D4245FEC874361AC382 /* Editor.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Editor.hpp; path = Editor.hpp; sourceTree = "<group>"; };
 		332611D03FE2C142B4CD3010 /* Editor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Editor; path = Editor; sourceTree = BUILT_PRODUCTS_DIR; };
 		3997FDECCF0EBD1E3DAB142C /* Interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Interface.cpp; path = Interface/Interface.cpp; sourceTree = "<group>"; };
 		52DEB99C6508964E98F97FDC /* libEngine.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Engine.xcodeproj"; path = ../Engine/Engine.xcodeproj; sourceTree = SOURCE_ROOT; };
 		606C44802E8F9832B59DEAC0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		616E9039A9DF746BEE7E4679 /* Undo.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Undo.hpp; path = Objects/Undo.hpp; sourceTree = "<group>"; };
-		71BA0CFC0730CC2E75CD233C /* Scripting.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Scripting.hpp; path = Scripting/Scripting.hpp; sourceTree = "<group>"; };
 		7F2DEC2FC79ED0610C3DA26F /* Undo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Undo.cpp; path = Objects/Undo.cpp; sourceTree = "<group>"; };
 		8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C14E5ED609BF43084E5E1516 /* Settings.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Settings.hpp; path = Settings.hpp; sourceTree = "<group>"; };
 		D36C825668E34188D77F9896 /* Interface.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Interface.hpp; path = Interface/Interface.hpp; sourceTree = "<group>"; };
+		E684C9F4E9F59C266B624034 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		EA5C1300C9792D32A5828940 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -104,9 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				18C818F82FDAB42A1FF6AF38 /* Editor.cpp */,
+				2EEC2D4245FEC874361AC382 /* Editor.hpp */,
 				D409B0CA76F7D77C061DB70A /* Interface */,
+				E684C9F4E9F59C266B624034 /* Main.cpp */,
 				80EB0F1C253DACCE3775F55C /* Objects */,
-				B273B44E5561DB00E487BA8E /* Scripting */,
+				C14E5ED609BF43084E5E1516 /* Settings.hpp */,
 				BBF76781A7E87333FA200DC1 /* Frameworks */,
 				A6C936B49B3FADE6EA134CF4 /* Products */,
 				9D968EAA920D05DCE0E0A4EA /* Projects */,
@@ -128,15 +131,6 @@
 				332611D03FE2C142B4CD3010 /* Editor */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B273B44E5561DB00E487BA8E /* Scripting */ = {
-			isa = PBXGroup;
-			children = (
-				71BA0CFC0730CC2E75CD233C /* Scripting.hpp */,
-				28C66332F6E9B6E47DF80972 /* Scrpipting.cpp */,
-			);
-			name = Scripting;
 			sourceTree = "<group>";
 		};
 		BBF76781A7E87333FA200DC1 /* Frameworks */ = {
@@ -240,7 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nif [ \"${CONFIGURATION}\" = \"Debug\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Debug/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Debug/Editor/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Release/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Release/Editor/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Dist\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Dist/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Dist/Editor/libassimp.6.dylib\"\nfi";
+			shellScript = "set -e\nif [ \"${CONFIGURATION}\" = \"Debug\" ]; then\ncp -rf \"../Engine/Renderer/Shaders\" \"../Binaries/macosx-ARM64/Debug/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Debug/Editor/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncp -rf \"../Engine/Renderer/Shaders\" \"../Binaries/macosx-ARM64/Release/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Release/Editor/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Dist\" ]; then\ncp -rf \"../Engine/Renderer/Shaders\" \"../Binaries/macosx-ARM64/Dist/Editor\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Dist/Editor/libassimp.6.dylib\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -251,8 +245,8 @@
 			files = (
 				F0197CD04B5AD0421EB51B10 /* Editor.cpp in Sources */,
 				58C304041F50FB768D532244 /* Interface.cpp in Sources */,
+				7126958CC7B3FFFEA02D13CC /* Main.cpp in Sources */,
 				03CE36E7FD8FF359378EF527 /* Undo.cpp in Sources */,
-				9EF1308A40DACC7C3801DECA /* Scrpipting.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

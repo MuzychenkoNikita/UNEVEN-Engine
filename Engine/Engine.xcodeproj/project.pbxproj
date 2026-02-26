@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002EF980A7A4953250699FC0 /* tinyfiledialogs.c in Sources */ = {isa = PBXBuildFile; fileRef = C2E7C3A8A18A5F1A566C61E8 /* tinyfiledialogs.c */; };
 		13594CD025108CC29A7E7B10 /* IsometricCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF06ED881D8E68AA4269518 /* IsometricCamera.cpp */; };
 		1817955824A247CA9F871398 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5C1300C9792D32A5828940 /* CoreFoundation.framework */; };
 		1A1DBF06B295AC78DE7C9D46 /* OrthographicCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B169AE63D55EE013FB3FEE /* OrthographicCamera.cpp */; };
@@ -40,12 +41,25 @@
 		F8E8DBA28B76A594F44F49E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A34A2A41A6BAFC732827A081 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0BACC980CF188B320DBC2FC0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		0CC4FF905113A502933ADDD0 /* imconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = ThirdParty/imgui/imconfig.h; sourceTree = "<group>"; };
 		0DF06ED881D8E68AA4269518 /* IsometricCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = IsometricCamera.cpp; path = Renderer/Camera/IsometricCamera.cpp; sourceTree = "<group>"; };
 		108FB1E481B252D637790024 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ThirdParty/imgui/imgui.cpp; sourceTree = "<group>"; };
-		128D75A5B57B9C5744A17BE5 /* libEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEngine.a; path = libEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		128D75A5B57B9C5744A17BE5 /* libEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CA71ECDA58695E485A902C /* imgui_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ThirdParty/imgui/imgui_demo.cpp; sourceTree = "<group>"; };
 		19352E0A6698243CDCB7244A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		19A6A211BB903E03B2B75051 /* UNSHScript.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UNSHScript.cpp; path = Gameplay/Scripting/UNSHScript.cpp; sourceTree = "<group>"; };
@@ -75,7 +89,7 @@
 		7E01BDF840C21E6A9DF6FC38 /* imstb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imstb_truetype.h; path = ThirdParty/imgui/imstb_truetype.h; sourceTree = "<group>"; };
 		800F204279D0DCB4B3CFDE82 /* Scene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = Gameplay/Scene/Scene.cpp; sourceTree = "<group>"; };
 		8135EE8643F64EF8A12B2CC6 /* imgui_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = ThirdParty/imgui/imgui_internal.h; sourceTree = "<group>"; };
-		831CDB38B2AEAA2A8DBBE978 /* Memmory.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Memmory.hpp; path = Core/Memmory.hpp; sourceTree = "<group>"; };
+		831CDB38B2AEAA2A8DBBE978 /* Memory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Memory.hpp; path = Core/Memory.hpp; sourceTree = "<group>"; };
 		844EFB4BF17709BDF309F98B /* default2D.fs */ = {isa = PBXFileReference; lastKnownFileType = text; name = default2D.fs; path = Renderer/Shaders/default2D.fs; sourceTree = "<group>"; };
 		8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8F7FC8F46E22646623046734 /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_opengl3.cpp; path = ThirdParty/imgui/imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
@@ -96,6 +110,7 @@
 		BE8F9E8C81FB603EC09F04CC /* Physics.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Physics.hpp; path = Physics/Physics.hpp; sourceTree = "<group>"; };
 		C0E122EF095207214DF0D92F /* Audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Audio.cpp; path = Audio/Audio.cpp; sourceTree = "<group>"; };
 		C2668A7388F481E5F6F6A8B3 /* UNWScript.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = UNWScript.hpp; path = Gameplay/Scripting/UNWScript.hpp; sourceTree = "<group>"; };
+		C2E7C3A8A18A5F1A566C61E8 /* tinyfiledialogs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = tinyfiledialogs.c; path = ThirdParty/tinyfiledialogs/tinyfiledialogs.c; sourceTree = "<group>"; };
 		C8B8A208C27A5E7AFC796048 /* Renderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Renderer.hpp; path = Renderer/Renderer.hpp; sourceTree = "<group>"; };
 		C8F1916B36199FDD37AC8FAB /* default2D.vs */ = {isa = PBXFileReference; lastKnownFileType = text; name = default2D.vs; path = Renderer/Shaders/default2D.vs; sourceTree = "<group>"; };
 		C93B3A86366348F837F638C6 /* TextureAtlas.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = TextureAtlas.hpp; path = Renderer/TextureAtlas.hpp; sourceTree = "<group>"; };
@@ -106,6 +121,7 @@
 		EA5C1300C9792D32A5828940 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EFEE84AAB2AEE51C0FE3C2EA /* imstb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imstb_textedit.h; path = ThirdParty/imgui/imstb_textedit.h; sourceTree = "<group>"; };
 		F3F608F9EDB7C56B27B6C739 /* FrontEnd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FrontEnd.cpp; path = FrontEnd/FrontEnd.cpp; sourceTree = "<group>"; };
+		F50BF6B2D3AE9224889094F2 /* tinyfiledialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyfiledialogs.h; path = ThirdParty/tinyfiledialogs/tinyfiledialogs.h; sourceTree = "<group>"; };
 		FEE170AA20AD1DDC5D6246EA /* Forces.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Forces.hpp; path = Physics/Forces.hpp; sourceTree = "<group>"; };
 		FEE33DB620AEEAE85D6413F6 /* Model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Model.cpp; path = Resources/Model.cpp; sourceTree = "<group>"; };
 		FF3454E494AB141603476B24 /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = text; name = Camera.hpp; path = Renderer/Camera/Camera.hpp; sourceTree = "<group>"; };
@@ -125,19 +141,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A34A2A41A6BAFC732827A081 /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXGroup section */
 		0130DA62EC1D00543402C8A2 /* Shaders */ = {
@@ -190,7 +193,7 @@
 				AC0C461EA5724790990DA45E /* Core.hpp */,
 				643AC6F064EDC3E2D8CF9530 /* Log.hpp */,
 				9CEFFB409655FCB289F15980 /* Math.hpp */,
-				831CDB38B2AEAA2A8DBBE978 /* Memmory.hpp */,
+				831CDB38B2AEAA2A8DBBE978 /* Memory.hpp */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			children = (
 				74D80452758B0144E96CD292 /* Glad */,
 				BBDF9D58B5459ECAA8E0FB98 /* imgui */,
+				FE4279F06B6A88626CFD7830 /* tinyfiledialogs */,
 			);
 			name = ThirdParty;
 			sourceTree = "<group>";
@@ -367,6 +371,15 @@
 			name = Scene;
 			sourceTree = "<group>";
 		};
+		FE4279F06B6A88626CFD7830 /* tinyfiledialogs */ = {
+			isa = PBXGroup;
+			children = (
+				C2E7C3A8A18A5F1A566C61E8 /* tinyfiledialogs.c */,
+				F50BF6B2D3AE9224889094F2 /* tinyfiledialogs.h */,
+			);
+			name = tinyfiledialogs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -394,14 +407,21 @@
 /* Begin PBXProject section */
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Engine" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = EA9F3B76C84A3E289BEEC1B6 /* Engine */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38FAACEBAA85C55D5986EB2B /* libEngine.a */,
+				38FAACEBAA85C55D5986EB2B /* Engine */,
 			);
 		};
 /* End PBXProject section */
@@ -429,7 +449,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nif [ \"${CONFIGURATION}\" = \"Debug\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Debug/Engine\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Debug/Engine/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Release/Engine\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Release/Engine/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Dist\" ]; then\ncp -rf \"../Core/Graphics/Shaders\" \"../Binaries/macosx-ARM64/Dist/Engine\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Dist/Engine/libassimp.6.dylib\"\nfi";
+			shellScript = "set -e\nif [ \"${CONFIGURATION}\" = \"Debug\" ]; then\ncp -rf \"../Engine/Renderer/Shaders\" \"../Binaries/macosx-ARM64/Debug/Engine\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Debug/Engine/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncp -rf \"../Engine/Renderer/Shaders\" \"../Binaries/macosx-ARM64/Release/Engine\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Release/Engine/libassimp.6.dylib\"\nfi\nif [ \"${CONFIGURATION}\" = \"Dist\" ]; then\ncp -rf \"../Engine/Renderer/Shaders\" \"../Binaries/macosx-ARM64/Dist/Engine\"\ncp -f \"../Dependencies/lib-arm64/libassimp.6.dylib\" \"../Binaries/macosx-ARM64/Dist/Engine/libassimp.6.dylib\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -464,13 +484,11 @@
 				993EFB4C40B496FEE979A18C /* imgui_impl_opengl3.cpp in Sources */,
 				365FCBF0D440CCA2ABBF1230 /* imgui_tables.cpp in Sources */,
 				467F46E8E0A33C1A90C91D28 /* imgui_widgets.cpp in Sources */,
+				002EF980A7A4953250699FC0 /* tinyfiledialogs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		21081DC777958839500E9C07 /* Dist */ = {
@@ -500,22 +518,13 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LIBRARY_SEARCH_PATHS = (
-					"../Dependencies/lib-arm64",
-				);
+				LIBRARY_SEARCH_PATHS = "../Dependencies/lib-arm64";
 				OBJROOT = "../Binaries/Intermediates/macosx-ARM64/Release/Engine";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-lglfw3",
-				);
+				OTHER_LDFLAGS = "-lglfw3";
 				SYMROOT = "../Binaries/macosx-ARM64/Release/Engine";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					../Dependencies/include,
-					"$(inherited)",
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					.,
-				);
+				SYSTEM_HEADER_SEARCH_PATHS = "../Dependencies/include $(inherited)";
+				USER_HEADER_SEARCH_PATHS = .;
 			};
 			name = Release;
 		};
@@ -536,22 +545,13 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LIBRARY_SEARCH_PATHS = (
-					"../Dependencies/lib-arm64",
-				);
+				LIBRARY_SEARCH_PATHS = "../Dependencies/lib-arm64";
 				OBJROOT = "../Binaries/Intermediates/macosx-ARM64/Debug/Engine";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-lglfw3",
-				);
+				OTHER_LDFLAGS = "-lglfw3";
 				SYMROOT = "../Binaries/macosx-ARM64/Debug/Engine";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					../Dependencies/include,
-					"$(inherited)",
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					.,
-				);
+				SYSTEM_HEADER_SEARCH_PATHS = "../Dependencies/include $(inherited)";
+				USER_HEADER_SEARCH_PATHS = .;
 			};
 			name = Debug;
 		};
@@ -594,22 +594,13 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LIBRARY_SEARCH_PATHS = (
-					"../Dependencies/lib-arm64",
-				);
+				LIBRARY_SEARCH_PATHS = "../Dependencies/lib-arm64";
 				OBJROOT = "../Binaries/Intermediates/macosx-ARM64/Dist/Engine";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-lglfw3",
-				);
+				OTHER_LDFLAGS = "-lglfw3";
 				SYMROOT = "../Binaries/macosx-ARM64/Dist/Engine";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					../Dependencies/include,
-					"$(inherited)",
-				);
-				USER_HEADER_SEARCH_PATHS = (
-					.,
-				);
+				SYSTEM_HEADER_SEARCH_PATHS = "../Dependencies/include $(inherited)";
+				USER_HEADER_SEARCH_PATHS = .;
 			};
 			name = Dist;
 		};
@@ -626,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		711FA8F4157246A627AA8F34 /* Build configuration list for PBXNativeTarget "libEngine.a" */ = {
+		711FA8F4157246A627AA8F34 /* Build configuration list for PBXNativeTarget "Engine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6434CBBA8C6F846C740B11FA /* Debug */,
@@ -637,6 +628,6 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-};
-rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
 }

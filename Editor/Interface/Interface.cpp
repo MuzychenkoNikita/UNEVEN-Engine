@@ -6,8 +6,8 @@
 #include <imgui/imgui.h>
 #include <imgui/imgui_impl_glfw.h>
 #include <imgui/imgui_impl_opengl3.h>
-
-void Editor::InitiateInterface() {
+/*
+void Editor::InitiateInterface(UNEVEN::Context ctx) {
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     io = &ImGui::GetIO(); (void)io;
@@ -16,14 +16,14 @@ void Editor::InitiateInterface() {
     io->ConfigFlags |= ImGuiConfigFlags_DockingEnable;
     io->ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;
 
-    ImGui_ImplGlfw_InitForOpenGL(window, true);
+    ImGui_ImplGlfw_InitForOpenGL(ctx.window, true);
     #ifdef __EMSCRIPTEN__
         ImGui_ImplGlfw_InstallEmscriptenCanvasResizeCallback("#canvas");
     #endif
         ImGui_ImplOpenGL3_Init("#version 330");
     ApplyDefaultTheme();
 }
-void Editor::RenderInterface() {
+void Editor::RenderInterface(UNEVEN::Context ctx) {
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplGlfw_NewFrame();
     ImGui::NewFrame();
@@ -42,7 +42,7 @@ void Editor::RenderInterface() {
     
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
-void Editor::CleanInterface() {
+void Editor::CleanInterface(UNEVEN::Context ctx) {
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
     
     if (io->ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
@@ -53,7 +53,7 @@ void Editor::CleanInterface() {
         glfwMakeContextCurrent(backup_current_context);
     }
 }
-void Editor::DestroyInterface() {
+void Editor::DestroyInterface(UNEVEN::Context ctx) {
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
@@ -236,3 +236,4 @@ void Editor::ApplyDefaultTheme() {
     c[ImGuiCol_PlotHistogram]      = Y;
     c[ImGuiCol_PlotHistogramHovered]=Yh;
 }
+*/

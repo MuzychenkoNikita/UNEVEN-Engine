@@ -1,34 +1,29 @@
 #include <iostream>
-#include <GLFW/glfw3.h>
 #include <imgui/imgui.h>
 
 #include "Core/Core.hpp"
 
-void InitEditor();
-void EditorLoop();
-void DestroyEditor();
-
 class Editor : public UNEVEN::Project {
 public:
-    void OnStart() override;
-    void OnUpdate(float dt) override;
-    void OnStop() override;
+    void OnStart(UNEVEN::Context ctx) override;
+    void OnUpdate(UNEVEN::Context ctx, float dt) override;
+    void OnStop(UNEVEN::Context ctx) override;
     
     
     
 public:
-    GLFWwindow* window = nullptr;
     unsigned int SCR_WIDTH = 1920;
     unsigned int SCR_HEIGHT = 1080;
 
-    ImGuiIO* io = nullptr;
+    //ImGuiIO* io = nullptr;
     
 private:
     // Main functions
-    void InitiateInterface();
-    void RenderInterface();
-    void CleanInterface();
-    void DestroyInterface();
+    /*
+    void InitiateInterface(UNEVEN::Context ctx);
+    void RenderInterface(UNEVEN::Context ctx);
+    void CleanInterface(UNEVEN::Context ctx);
+    void DestroyInterface(UNEVEN::Context ctx);
 
     // Interface Windows
     void ProjectWindow();
@@ -40,4 +35,5 @@ private:
 
     // Helper Functions
     void ApplyDefaultTheme();
+     */
 };

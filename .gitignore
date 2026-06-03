@@ -49,3 +49,8 @@ fastlane/test_output/
 *.trace
 *.crash
 *.log
+
+*.png
+*.jpg
+*.jpeg
+*.pbxproj
